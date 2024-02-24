@@ -1,0 +1,18 @@
+button {
+  &:nth-child(3) {
+    height: 40px;
+    background-color: rgba(128, 0, 128, 0.2);
+    border: 1px solid purple;
+    color: purple;
+    width: 80px;
+    border-radius: 2px;
+    align-self: center;
+    transition: 1s;
+    padding: 10px;
+    font-size: 16px;
+  }
+  &:hover {
+    color: black;
+    border: none;
+  }
+}
